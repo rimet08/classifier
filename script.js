@@ -1,3 +1,4 @@
+function processBtn() {
 const nameInput = document.getElementById("nameInput");
 const ageInput = document.getElementById("ageInput");
 const genderMale = document.getElementById("genderMale");
@@ -39,4 +40,6 @@ if (ageInput >= 65 ) {
     let nameInput = nameInput.value;
     let genderMale = "images/duchodce_muz.png"
     let genderFemale = "images/duchodce_zena.png"
+}
+
 }
