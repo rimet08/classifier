@@ -28,4 +28,7 @@ if (ageInput >= 16 && ageInput < 26 ) {
     let genderFemale = "images/student_zena.png"
 }
 
-if
+if (ageInput >= 27 && ageInput < 64 ) {
+    let genderMale = "images/dospely_muz.png"
+    let genderFemale = "images/dospela_zena.png"
+}
