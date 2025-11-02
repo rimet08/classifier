@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classifier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Classifier</h1>
+        
+        <form id="classifierForm">
+            <div class="form-group">
+                <label for="nameInput">Name:</label>
+                <input type="text" id="nameInput" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="ageInput">Age:</label>
+                <input type="number" id="ageInput" name="age" min="1" max="150" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Gender:</label>
+                <div class="radio-group">
+                    <div class="radio-option">
+                        <input type="radio" id="genderMale" name="gender" value="Male" required>
+                        <label for="genderMale">Male</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="genderFemale" name="gender" value="Female" required>
+                        <label for="genderFemale">Female</label>
+                    </div>
+                </div>
+            </div>
+            
+            <button type="button" id="processBtn">Process Data</button>
+        </form>
+        
+        <div class="result-section">
+            <h3 id="resultText"></h3>
+            <img id="resultImage" src="" alt="Result" style="display: none;">
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
