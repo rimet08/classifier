@@ -6,12 +6,10 @@ const genderFemale = document.getElementById("genderFemale");
 const processBtn = document.getElementById("processBtn");
 const resultImage = document.getElementById("resultImage");
 
-if (ageInput) < 0 {
+if (ageInput <= 0) {
     alert("Enter a valid age");
 }
-else {
-    // default image
-}
+
 
 if (ageInput >= 0 && ageInput <= 6 ) {
     let nameInput = nameInput.value;
