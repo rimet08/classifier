@@ -13,3 +13,7 @@ else {
     // default image
 }
 
+if (ageInput = 0 && 6 ) {
+    let genderMale = "images/dite_muz.png"
+    let genderFemale = "images/dite_zen.png"
+}
